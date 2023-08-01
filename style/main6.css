@@ -43,3 +43,13 @@
     aspect-ratio: 1 / 1;
     background-color: #FDFFF5;
 }
+
+.main-6-block-slider-range::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0.75vw;
+    border-radius: 1.5vw;
+    width: calc(100% / 8);
+    aspect-ratio: 1 / 1;
+    background-color: #FDFFF5;
+}
