@@ -22,7 +22,7 @@
 .main-6-slider-images > img {
     width: 28.3125vw;
     aspect-ratio: 28.3125 / 20.8125;
-    border-radius: 1.5rem;
+    border-radius: 1.5vw;
 }
 
 .main-6-block-slider-range {
@@ -30,7 +30,7 @@
     height: 0.75vw;
     -webkit-appearance: none;
     appearance: none;
-    border-radius: 1.5rem;
+    border-radius: 1.5vw;
     background: rgba(253, 255, 245, 0.30);
 }
 
