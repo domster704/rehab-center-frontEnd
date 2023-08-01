@@ -32,7 +32,7 @@
 
 .main-2-service-text {
     padding: 0 var(--padding-horizontal);
-    font-size: clamp(1rem, 3vw, 3.75rem);
+    font-size: clamp(1.5rem, 3vw, 3.75rem);
     color: #FFFFFF;
     font-weight: 700;
 }

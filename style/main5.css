@@ -18,7 +18,7 @@
 }
 
 .main-5-block-header {
-    font-size: clamp(1rem, 3vw, 3.75rem);
+    font-size: clamp(1.5rem, 3vw, 3.75rem);
     font-weight: 700;
     line-height: 125%;
 }

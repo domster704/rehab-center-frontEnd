@@ -20,11 +20,11 @@ body {
 }
 
 .font-size-24 {
-    font-size: clamp(0.6rem, 1.25vw, 2rem);
+    font-size: clamp(0.8rem, 1.25vw, 2rem);
 }
 
 .font-size-32 {
-    font-size: clamp(0.7rem, 1.5vw, 2rem);
+    font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 .button {

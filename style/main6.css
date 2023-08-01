@@ -17,12 +17,18 @@
     gap: 2vw;
     margin: 2.5vw 0;
     max-width: min-content;
+    transform: translateX(1px);
+    /*overflow-x: auto;*/
 }
+
+/*.main-6-slider-images::-webkit-scrollbar-thumb {*/
+/*}*/
 
 .main-6-slider-images > img {
     width: clamp(12rem, 28.3125vw, 30rem);
     aspect-ratio: 28.3125 / 20.8125;
     border-radius: 1.25vw;
+    user-select: none;
 }
 
 .main-6-block-slider-range {

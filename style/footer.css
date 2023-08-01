@@ -26,6 +26,11 @@ footer {
     align-items: center;
 }
 
+.footer-block-text-row > img {
+    width: max(1.25rem, 2vw);
+    height: max(1.25rem, 2vw);
+}
+
 .footer-block-form {
     display: flex;
     flex-direction: column;
@@ -47,13 +52,13 @@ footer {
     border: none;
     outline: none;
     padding: 0.5vw;
-    font-size: clamp(0.6rem, 1.25vw, 2rem);
+    font-size: clamp(0.8rem, 1.25vw, 2rem);
     color: rgba(27, 62, 23, 0.50);
 }
 
 .footer-block-form-input > input::placeholder {
     color: rgba(27, 62, 23, 0.50);
-    font-size: clamp(0.6rem, 1.25vw, 2rem);
+    font-size: clamp(0.8rem, 1.25vw, 2rem);
 }
 
 .footer-block-form-button {
@@ -68,7 +73,7 @@ footer {
 
 .footer-block-form-button > input {
     width: 100%;
-    font-size: clamp(0.6rem, 1.25vw, 2rem);
+    font-size: clamp(0.8rem, 1.25vw, 2rem);
     color: #FFF;
     font-weight: 600;
     background: transparent;
@@ -107,6 +112,6 @@ footer {
     }
 
     .footer-block-text-block, .footer-block-form {
-        width: 80%;
+        width: 100%;
     }
 }

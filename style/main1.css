@@ -2,7 +2,8 @@
     width: 100%;
     background: radial-gradient(282.38% 147.93% at -0.00% 15.48%, rgba(0, 32, 9, 0.70) 0%, rgba(0, 32, 9, 0.00) 100%), url("../res/image/main1_back.png") no-repeat;
     background-size: 100% auto;
-    padding-bottom: clamp(0rem, 15vw, 16rem);
+    padding-bottom: calc(clamp(0rem, 15vw, 16rem) / 2 + 2vw);
+    padding-top: calc(clamp(0rem, 15vw, 16rem) / 2 - 2vw);
     z-index: 1;
 }
 
