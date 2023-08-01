@@ -1,0 +1,23 @@
+.main-1 {
+    width: 100%;
+    background: radial-gradient(282.38% 147.93% at -0.00% 15.48%, rgba(0, 32, 9, 0.70) 0%, rgba(0, 32, 9, 0.00) 100%), url("../res/image/main1_back.png") no-repeat;
+    background-size: 100% auto;
+    padding-bottom: clamp(0rem, 15vw, 16rem);
+    z-index: 1;
+}
+
+.main-1-text-block {
+    color: #FFFFFF;
+    padding: 0 var(--padding-horizontal);
+}
+
+.main-1-text-block > div:nth-child(1) {
+    font-weight: 700;
+    font-size: clamp(0.625rem, 5vw, 6rem);
+}
+
+.main-1-text-block > div:nth-child(2) {
+    max-width: min-content;
+    min-width: clamp(15.625rem, 27vw, 31.25rem);
+    margin-top: 1vw;
+}

@@ -1,0 +1,112 @@
+footer {
+    display: flex;
+    padding: 7vw var(--padding-horizontal);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625vw;
+    background: #1B3E17;
+}
+
+.footer-block {
+    gap: 3.5vw
+}
+
+.footer-block-text-block, .footer-block-form {
+    width: var(--width-for-card);
+}
+
+.footer-block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.footer-block-text-row {
+    gap: 1.5vw;
+    align-items: center;
+}
+
+.footer-block-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+.footer-block-form-input {
+    display: flex;
+    padding: 1.25vw 2vw;
+    align-items: center;
+    gap: 0.625vw;
+    border-radius: 1.25vw;
+    background: #FDFFF5;
+    color: rgba(27, 62, 23, 0.50);
+}
+
+.footer-block-form-input > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5vw;
+    font-size: clamp(0.6rem, 1.25vw, 2rem);
+    color: rgba(27, 62, 23, 0.50);
+}
+
+.footer-block-form-input > input::placeholder {
+    color: rgba(27, 62, 23, 0.50);
+    font-size: clamp(0.6rem, 1.25vw, 2rem);
+}
+
+.footer-block-form-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0.625vw;
+    border-radius: 1.25vw;
+    background: radial-gradient(821.45% 125.08% at 95.47% 38.43%, #E9B633 0%, #BE6D3F 100%);
+}
+
+.footer-block-form-button > input {
+    width: 100%;
+    font-size: clamp(0.6rem, 1.25vw, 2rem);
+    color: #FFF;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 1.75vw 2.5vw;
+}
+
+.footer-block-form-button > input:hover {
+    cursor: pointer;
+}
+
+.footer-block2 {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-block2 * {
+    min-width: max-content;
+}
+
+.footer-block2 > .main-5-block-header {
+    text-align: center;
+    min-width: auto;
+}
+
+@media (max-width: 800px) {
+    .footer-block2 {
+        display: flex;
+    }
+
+    .footer-block1 {
+        display: none;
+    }
+
+    .footer-block-text-block, .footer-block-form {
+        width: 80%;
+    }
+}

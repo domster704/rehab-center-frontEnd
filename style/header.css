@@ -1,0 +1,32 @@
+header {
+    background-color: #1B3E17;
+    justify-content: space-between;
+    padding: 1rem var(--padding-horizontal);
+}
+
+.header-start, .header-end {
+    align-items: center;
+}
+
+.header-start > p {
+    background: radial-gradient(821.45% 125.08% at 95.47% 38.43%, #E9B633 0%, #BE6D3F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.header-start > img {
+    width: clamp(1.875rem, 4.25vw, 4.375rem);
+}
+
+.header-end {
+    text-align: right;
+}
+
+.header-end > div > a {
+    color: rgba(255, 255, 255, 0.5);
+}
+

@@ -1,0 +1,45 @@
+.main-5 {
+    background: radial-gradient(821.45% 125.08% at 95.47% 38.43%, #E9B633 0%, #BE6D3F 100%);
+    display: flex;
+    padding: 7vw var(--padding-horizontal) 0 var(--padding-horizontal);
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-5-block > div {
+    gap: clamp(1rem, 2vw, 3rem);
+}
+
+.main-5-block-text-block {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    gap: 2.5vw;
+}
+
+.main-5-block-header {
+    font-size: clamp(1rem, 3vw, 3.75rem);
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.main-5-block-text {
+    margin-right: 8vw;
+}
+
+.main-5-block-img {
+    width: 25vw;
+    aspect-ratio: 25.55794 / 40.86;
+    background: url("../res/image/doctor.png") no-repeat, radial-gradient(25vw circle at 50% 40%, white 50%, transparent 51%);
+    background-size: 100%;
+    z-index: 100;
+    position: relative;
+    overflow: visible;
+}
+
+@media (max-width: 584px) {
+    .main-5-block > div {
+        flex-direction: column;
+        align-items: center;
+    }
+}

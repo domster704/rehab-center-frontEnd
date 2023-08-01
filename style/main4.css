@@ -1,0 +1,35 @@
+.main-4 {
+    background: #FDFFF5;
+    padding: 6vw var(--padding-horizontal) 7vw;
+}
+
+.main-4-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.75vw;
+}
+
+.main-4-block-cards-row {
+    gap: 3.75vw;
+    margin-bottom: 2.5vw;
+}
+
+.main-4-card {
+    display: flex;
+    width: 52.375rem;
+    padding: 3vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+
+    border: 2px #E9B633 solid;
+    border-radius: 1.5vw;
+    background: #FDFFF5;
+}
+
+.main-4-card > img {
+    width: 6.25vw;
+    height: 6.25vw;
+}

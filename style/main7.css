@@ -1,0 +1,68 @@
+.main-7 {
+    background: #FDFFF5;
+    display: flex;
+    padding: 8.75vw 0;
+    align-items: center;
+}
+
+.main-7-block {
+    gap: 4.3125vw;
+}
+
+.main-7-block-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.75vw;
+
+    max-width: max-content;
+}
+
+.main-7-block-card1 {
+    padding: 3vw 3vw 3vw 12vw;
+    border-radius: 0 1.5vw 1.5vw 0;
+    background: radial-gradient(1311.35% 206.09% at 142.58% -34.68%, #E9B633 0%, #BE6D3F 100%);
+    flex-shrink: 10;
+}
+
+.main-7-block-card2 {
+    border-radius: 1.5vw 0 0 1.5vw;
+    padding: 3vw 12vw 3vw 3vw;
+    background: radial-gradient(1470.51% 251.39% at 100.00% -39.06%, #E9B633 0%, #BE6D3F 100%);
+    flex-shrink: 14;
+}
+
+.main-7-block-text {
+    color: #FFFFFF;
+    padding-left: 1vw;
+}
+
+.main-7-block-text > ul > li {
+    line-height: 130%;
+}
+
+.main-7-block-text > ul > li:not(:first-child) {
+    margin-top: 1vw;
+}
+
+@media (max-width: 1024px) {
+    .main-7-block {
+        flex-direction: column;
+    }
+
+    .main-7-block-card {
+        min-width: 100%;
+    }
+
+    .main-7-block-card2 {
+        padding: 3vw 3vw 3vw 12vw;
+        border-radius: 0 1.5vw 1.5vw 0;
+        background: radial-gradient(1311.35% 206.09% at 142.58% -34.68%, #E9B633 0%, #BE6D3F 100%);
+    }
+}
+
+@media (max-width: 513px) {
+    .main-7-block-card {
+        border-radius: 0;
+    }
+}
