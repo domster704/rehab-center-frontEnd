@@ -20,9 +20,9 @@
 }
 
 .main-6-slider-images > img {
-    width: 28.3125vw;
+    width: clamp(12rem, 28.3125vw, 30rem);
     aspect-ratio: 28.3125 / 20.8125;
-    border-radius: 1.5vw;
+    border-radius: 1.25vw;
 }
 
 .main-6-block-slider-range {
