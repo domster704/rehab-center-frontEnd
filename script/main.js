@@ -33,7 +33,6 @@ const swipeAction = function (event) {
     posX2 = posX1 - event.clientX;
     posX1 = event.clientX;
 
-    console.log(imageSlider.scrollLeft)
     imageSlider.scrollTo(imageSlider.scrollLeft + posX2, 0);
 }
 
