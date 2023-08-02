@@ -37,6 +37,12 @@ const swipeAction = function (event) {
     imageSlider.scrollTo(imageSlider.scrollLeft + posX2, 0);
 }
 
+let scrollSpeed = 0.3;
+const scrollHorizontally = function (event) {
+    event.preventDefault();
+    imageSlider.scrollLeft -= event.wheelDelta * scrollSpeed;
+}
+
 const swipeEnd = function () {
     imageSlider.removeEventListener('touchmove', swipeAction);
     imageSlider.removeEventListener('mousemove', swipeAction);
@@ -45,3 +51,4 @@ const swipeEnd = function () {
 }
 
 imageSlider.addEventListener('mousedown', swipeStart);
+imageSlider.addEventListener('mousewheel', scrollHorizontally)
