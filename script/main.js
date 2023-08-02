@@ -19,8 +19,6 @@ let posInit = 0;
 let posX1 = 0;
 let posX2 = 0;
 let style;
-let transform;
-let trfRegExp = /[-0-9.]+(?=px)/;
 const swipeStart = function (event) {
     posInit = posX1 = event.clientX;
     imageSlider.addEventListener('mousemove', swipeAction);
@@ -31,13 +29,12 @@ const swipeStart = function (event) {
 
 const swipeAction = function (event) {
     style = imageSlider.style.transform;
-    console.log(style)
-    transform = +style.match(trfRegExp)[0];
 
     posX2 = posX1 - event.clientX;
     posX1 = event.clientX;
 
-    imageSlider.style.transform = `translate3d(${transform - posX2}px, 0px, 0px)`;
+    console.log(imageSlider.scrollLeft)
+    imageSlider.scrollTo(imageSlider.scrollLeft + posX2, 0);
 }
 
 const swipeEnd = function () {
