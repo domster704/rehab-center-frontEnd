@@ -19,7 +19,7 @@
     max-width: min-content;
     transform: translateX(1px);
     overflow-x: scroll;
-    padding-bottom: 2rem;
+    padding-bottom: 2vw;
 }
 
 .main-6-slider-images::-webkit-scrollbar {
