@@ -90,7 +90,6 @@
     display: none;
 }
 
-
 @media (max-width: 640px) {
     .main-2-card-row-desk {
         display: none;
@@ -105,7 +104,7 @@
 
     .main-2-card-row-mobile > div > .main-2-card-row-card {
         transform: translateY(0%);
-        min-width: var(--width-for-card);
+        min-width: calc(var(--width-for-card) - max(1rem, 1.5vw));
     }
 
     .main-2-card-row-mobile > div {
